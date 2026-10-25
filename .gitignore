@@ -1,0 +1,39 @@
+# ── Data ──────────────────────────────────────────────────────────────────────
+# Raw source files stay out of git (often large or sensitive).
+# Add exceptions below if specific small fixtures should be committed.
+data/raw/*
+!data/raw/.gitkeep
+data/processed/*
+!data/processed/.gitkeep
+
+# ── Jupyter ───────────────────────────────────────────────────────────────────
+.ipynb_checkpoints/
+*.ipynb_checkpoints
+
+# ── Python ────────────────────────────────────────────────────────────────────
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.egg-info/
+dist/
+build/
+*.egg
+.eggs/
+
+# ── Environments ──────────────────────────────────────────────────────────────
+.env
+.venv/
+env/
+venv/
+# conda env is managed by name, not committed
+conda-meta/
+
+# ── OS / editor ───────────────────────────────────────────────────────────────
+.DS_Store
+Thumbs.db
+desktop.ini
+.idea/
+.vscode/
+*.suo
+*.user
