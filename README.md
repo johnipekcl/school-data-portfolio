@@ -7,7 +7,7 @@ Exploratory analysis of school-level data using Python and Jupyter notebooks.
 1. **Create the environment** (first time only)
 
    ```bash
-   conda create -n school-data python=3.12 pandas openpyxl jupyter -y
+   conda env create -f environment.yml
    ```
 
 2. **Activate before each session**
