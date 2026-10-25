@@ -47,7 +47,7 @@ school-data-portfolio/
 
 | Dataset | Source | Format | Notes |
 |---------|--------|--------|-------|
-| — | — | — | Add rows as datasets are acquired |
+| Absence by geographic level — autumn & spring combined | [DfE Explore Education Statistics](https://explore-education-statistics.service.gov.uk/data-catalogue/data-set/b452323a-9c6c-4d24-929e-200b5a368116) | CSV | National/regional/LA level; 2016/17–2025/26; published 15 Oct 2026 |
 
 ## Notes
 
